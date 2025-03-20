@@ -1,0 +1,24 @@
+git fetch origin - локално ги превземам креираните гранки на remote git repo 
+git checkout 1-remove-a-task-by-name - се префрлувам на една од трите гранки и со тоа станува и локална 
+git add SI2025Lab1Main.java - го ставам изменетиот фајл на staging area, спремен за commit 
+git commit -m "Added feature: remove-a-task-by-name" - го правам првиот комит на оваа гранка 
+git push origin 1-remove-a-task-by-name - ова што го сменив во фајлот .java го ажурирам на истата гранка на remote repo
+
+git checkout 5-filter-tasks-by-category - се префрлувам на една од трите гранки и со тоа станува и локална 
+git add SI2025Lab1Main.java - го ставам изменетиот фајл на staging area, спремен за commit 
+git commit -m "Added feature: filter-tasks-by-category" - го правам првиот комит на оваа гранка 
+git push origin 5-filter-tasks-by-category - ова што го сменив во фајлот .java го ажурирам на истата гранка на remote repo
+
+git checkout 9-mark-all-tasks-in-a-category-as-completed - се префрлувам на една од трите гранки и со тоа станува и локална 
+git add SI2025Lab1Main.java - го ставам изменетиот фајл на staging area, спремен за commit 
+git commit -m "Added feature: mark-all-tasks-in-a-category-as-completed" - го правам првиот комит на оваа гранка 
+git push origin 9-mark-all-tasks-in-a-category-as-completed - ова што го сменив во фајлот .java го ажурирам на истата гранка на remote repo
+
+21. Забележувам дека оние issues кои ги поправив на соодветните гранки автоматски се префрлени во одделот Done кај проектот,
+со тоа што дозволив да се спојат соодветните гранки каде што е имплементацијата со master гранката. 
+
+git checkout master - за сигурно префрлање на master гранката.
+git merge 1-remove-task-by-name - со ова ја спојувам master гранката локално со гранката на која ја имам имплементирано оваа функција и ја немам споено на remote.
+git push origin master - со ова ја синхронизирам локалната master гранка со таа на remote НО, пред тоа правам git pull за да видам што се сменило на remote.
+
+24. Да, сега на remote-от issue-то е преместено во done а, PR-от на истата гранка на која го имплементирав решението е автоматски избришан.

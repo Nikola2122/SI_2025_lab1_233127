@@ -1,0 +1,16 @@
+$ git log --oneline --graph --all
+*   40008c5 (HEAD -> master, origin/master, origin/HEAD) Merge branch 'master' of https://github.com/Nikola2122/SI_2025_lab1_233127
+|\
+| *   45b4f47 Merge pull request #11 from Nikola2122/5-filter-tasks-by-category
+| |\
+| | * 5c6276b (origin/5-filter-tasks-by-category, 5-filter-tasks-by-category) Added feature: filter-tasks-by-category
+| * |   fba2c88 Merge pull request #12 from Nikola2122/9-mark-all-tasks-in-a-category-as-completed
+| |\ \
+| | |/
+| |/|
+| | * 49fa0a3 (origin/9-mark-all-tasks-in-a-category-as-completed, 9-mark-all-tasks-in-a-category-as-completed) Added feature: mark-all-tasks-in-a-category-as-completed
+| |/
+* / 5d23b74 (origin/1-remove-a-task-by-name, 1-remove-a-task-by-name) Added feature: remove-a-task-by-name
+|/
+* ccf2c2a Add starter code
+* eaec810 Initial commit
